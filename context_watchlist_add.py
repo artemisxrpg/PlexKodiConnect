@@ -18,9 +18,9 @@ def main():
         'kodi_type': kodi_type
     }
     window = Window(10000)
-    while window.getProperty('plexkodiconnect.command'):
+    while window.getProperty('plexkodiconnect2.command'):
         sleep(20)
-    window.setProperty('plexkodiconnect.command',
+    window.setProperty('plexkodiconnect2.command',
                        'WATCHLIST_ADD?%s' % urlencode(args))
 
 
