@@ -67,7 +67,7 @@
             <group id="2">
                 <setting id="rvpegvatgxcrpgyrkomurhvxrtxjzghj" type="action" label="39050" help=""> <!-- Choose Plex Server from a list -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2?mode=chooseServer)</data>
+                    <data>RunPlugin(plugin://plugin.video.2?mode=chooseServer)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -77,7 +77,7 @@
                 </setting>
                 <setting id="qbqqgiuygvtupktypjdymdqtmhyxvhud" type="action" label="39068" help=""> <!-- Manually enter Plex Media Server address -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2?mode=enterPMS)</data>
+                    <data>RunPlugin(plugin://plugin.video.2?mode=enterPMS)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -202,7 +202,7 @@
                 </setting>
                 <setting id="cxjjfvolbtprgoqfnmeghgibawzuhcrx" type="action" label="39231" help=""> <!-- Change logged in Plex home user -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2?mode=switchuser)</data>
+                    <data>RunPlugin(plugin://plugin.video.2?mode=switchuser)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -212,7 +212,7 @@
                 </setting>
                 <setting id="lnasfmhwqtvdgjxvseywkooiromwavoi" type="action" label="39209" help=""> <!-- Toggle plex.tv login (sign in or sign out) -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2?mode=togglePlexTV)</data>
+                    <data>RunPlugin(plugin://plugin.video.2?mode=togglePlexTV)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -481,7 +481,7 @@
             <group id="1">
                 <setting id="uoovktyfpdsjvxlroxishmichtivzcxs" type="action" label="30524" help=""> <!-- Select Plex libraries to sync -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2?mode=select-libraries)</data>
+                    <data>RunPlugin(plugin://plugin.video.2?mode=select-libraries)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -687,7 +687,7 @@
                 </setting>
                 <setting id="tdqkphkiptffagekqkavgogvmirtluqj" type="action" label="30517" help=""> <!-- Set network credentials for Direct Paths and direct play -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2?mode=passwords)</data>
+                    <data>RunPlugin(plugin://plugin.video.2?mode=passwords)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -1293,7 +1293,7 @@
                 </setting>
                 <setting id="kjsprzuilnbgnvzhhzzoeutlnvutoges" type="action" label="39222" help="" parent="FanartTV"> <!-- Look for missing fanart on FanartTV now -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2/?mode=fanart)</data>
+                    <data>RunPlugin(plugin://plugin.video.2/?mode=fanart)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -1331,7 +1331,7 @@
                 </setting>
                 <setting id="dzfkjpmunychetkfurdyxijfxzoozvqo" type="action" label="39020" help=""> <!-- Cache all images to Kodi texture cache now -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2/?mode=texturecache)</data>
+                    <data>RunPlugin(plugin://plugin.video.2/?mode=texturecache)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -1393,7 +1393,7 @@
                 </setting>
                 <setting id="iszcfbzyuastaqpvfimuawwdnfjqaowq" type="action" label="39085" help=""> <!-- Reload Kodi node files to apply all the settings below -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2?mode=refreshplaylist)</data>
+                    <data>RunPlugin(plugin://plugin.video.2?mode=refreshplaylist)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -1477,7 +1477,7 @@
                 </setting>
                 <setting id="elhsrylanhzahoxakgxbqdgrdnoxoiov" type="action" label="39018" help=""> <!-- Repair the Kodi database (force update all content) -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2/?mode=repair)</data>
+                    <data>RunPlugin(plugin://plugin.video.2/?mode=repair)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -1487,7 +1487,7 @@
                 </setting>
                 <setting id="askvrtueldgnvzpegbynzfumzssiwkgw" type="action" label="30535" help=""> <!-- Generate a new unique Plex device Id (e.g. to clone Kodi) -->
                     <level>0</level>
-                    <data>RunPlugin(plugin://plugin.video.plexkodiconnect2?mode=deviceid)</data>
+                    <data>RunPlugin(plugin://plugin.video.2?mode=deviceid)</data>
                     <constraints>
                         <allowempty>true</allowempty>
                     </constraints>
@@ -1496,7 +1496,7 @@
             </group>
             <group id="2" />
             <group id="3" label="39049"> <!-- Nothing works? Try a full reset! -->
-                <setting id="xiispxcvgwwhwfbhyflgkhswekhlrsac" type="action" label="39019" help=""> <!-- Reset the Kodi database and optionally reset PlexKodiConnect -->
+                <setting id="xiispxcvgwwhwfbhyflgkhswekhlrsac" type="action" label="39019" help=""> <!-- Reset the Kodi database and optionally reset PlexKodiConnect2 -->
                     <level>0</level>
                     <data>RunPlugin(plugin://plugin.video.plexkodiconnect2/?mode=reset)</data>
                     <constraints>
