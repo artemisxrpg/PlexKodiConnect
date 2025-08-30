@@ -31,7 +31,7 @@ from . import pathvalidate, path_ops, variables as v
 LOG = getLogger('PLEX.utils')
 
 WINDOW = xbmcgui.Window(10000)
-ADDON = xbmcaddon.Addon(id='plugin.video.plexkodiconnect')
+ADDON = xbmcaddon.Addon(id='plugin.video.plexkodiconnect2')
 
 # If several threads access  the settings.xml file concurrently, it gets
 # corrupted
@@ -115,7 +115,7 @@ def settings(setting, value=None):
     """
     # We need to instantiate every single time to read changed variables!
     with SETTINGS_LOCK:
-        addon = xbmcaddon.Addon('plugin.video.plexkodiconnect')
+        addon = xbmcaddon.Addon('plugin.video.plexkodiconnect2')
         if value is not None:
             # Takes string or unicode by default!
             addon.setSetting(setting, value)
@@ -156,7 +156,7 @@ def dialog(typus, *args, **kwargs):
     Displays xbmcgui Dialog. Pass a string as typus:
         'yesno', 'ok', 'notification', 'input', 'select', 'numeric'
     kwargs:
-        heading='{plex}'        title bar (here PlexKodiConnect)
+        heading='{plex}'        title bar (here plexkodiconnect2)
         message=lang(30128),    Dialog content
         time=5000,
         sound=True,
@@ -182,7 +182,7 @@ def dialog(typus, *args, **kwargs):
     """
     if 'icon' in kwargs:
         types = {
-            '{plex}': 'special://home/addons/plugin.video.plexkodiconnect/icon.png',
+            '{plex}': 'special://home/addons/plugin.video.plexkodiconnect2/icon.png',
             '{info}': xbmcgui.NOTIFICATION_INFO,
             '{warning}': xbmcgui.NOTIFICATION_WARNING,
             '{error}': xbmcgui.NOTIFICATION_ERROR
@@ -520,7 +520,7 @@ def init_dbs():
 
 
 def default_kodi_skin_warning_message():
-    """"To ensure a smooth PlexKodiConnect experience, it is HIGHLY recommended
+    """"To ensure a smooth plexkodiconnect2 experience, it is HIGHLY recommended
     to use Kodi's default skin \"Estuary\" for initial set-up and for possible
     database resets. Continue?"
     """
@@ -545,7 +545,7 @@ def reset(ask_user=True):
     from . import app
     # first stop any db sync
     app.APP.suspend_threads()
-    # Reset all PlexKodiConnect Addon settings? (this is usually NOT
+    # Reset all plexkodiconnect2 Addon settings? (this is usually NOT
     # recommended and unnecessary!)
     if ask_user and yesno_dialog(lang(29999), lang(39603)):
         # Delete the settings
