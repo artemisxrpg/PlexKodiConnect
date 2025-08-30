@@ -359,9 +359,9 @@ def _prep_playlist_stack(xml, resume):
                 # the same video again after playback
                 # WARNING: This fixes startup, but renders Kodi unstable
                 # path = path.replace('plugin.video.plexkodiconnect.tvshows',
-                #                     'plugin.video.plexkodiconnect', 1)
+                #                     'plugin.video.plexkodiconnect2', 1)
                 # path = path.replace('plugin.video.plexkodiconnect.movies',
-                #                     'plugin.video.plexkodiconnect', 1)
+                #                     'plugin.video.plexkodiconnect2', 1)
                 listitem = api.listitem()
                 listitem.setPath(path)
             else:
