@@ -1,7 +1,7 @@
 #  XBMC Media Center language file
 msgid ""
 msgstr ""
-"Project-Id-Version: PlexKodiConnect\n"
+"Project-Id-Version: PlexKodiConnect2\n"
 "Report-Msgid-Bugs-To: croneter@gmail.com\n"
 "POT-Creation-Date: 2017-04-15 13:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -20,7 +20,7 @@ msgid "Plex"
 msgstr ""
 
 msgctxt "#29999"
-msgid "PlexKodiConnect"
+msgid "PlexKodiConnect2"
 msgstr ""
 
 msgctxt "#30000"
@@ -161,7 +161,7 @@ msgstr ""
 
 # Warning shown when PKC switches to the Kodi default skin Estuary
 msgctxt "#30029"
-msgid "To ensure a smooth PlexKodiConnect experience, it is HIGHLY recommended to use Kodi's default skin \"Estuary\" for initial set-up and for possible database resets. Continue?"
+msgid "To ensure a smooth PlexKodiConnect2 experience, it is HIGHLY recommended to use Kodi's default skin \"Estuary\" for initial set-up and for possible database resets. Continue?"
 msgstr ""
 
 msgctxt "#30030"
@@ -864,7 +864,7 @@ msgstr ""
 
 # PKC Settings - Advanced
 msgctxt "#39019"
-msgid "Reset the Kodi database and optionally reset PlexKodiConnect"
+msgid "Reset the Kodi database and optionally reset PlexKodiConnect2"
 msgstr ""
 
 # PKC Settings - Artwork
@@ -1431,7 +1431,7 @@ msgid "Could not stop the database from running. Please try again later."
 msgstr ""
 
 msgctxt "#39603"
-msgid "Reset all PlexKodiConnect Addon settings? (this is usually NOT recommended and unnecessary!)"
+msgid "Reset all PlexKodiConnect2 Addon settings? (this is usually NOT recommended and unnecessary!)"
 msgstr ""
 
 msgctxt "#39700"
