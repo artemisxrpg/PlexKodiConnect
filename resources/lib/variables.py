@@ -36,9 +36,9 @@ KODI_IGNOREPERCENTATEND = 0.08
 KODI_PLAYCOUNTMINIMUMPERCENT = 0.9
 KODI_IGNORESECONDSATSTART = 180
 
-_ADDON = Addon('plugin.video.plexkodiconnect')
-ADDON_NAME = 'PlexKodiConnect'
-ADDON_ID = 'plugin.video.plexkodiconnect'
+_ADDON = Addon('plugin.video.plexkodiconnect2')
+ADDON_NAME = 'plexkodiconnect2'
+ADDON_ID = 'plugin.video.plexkodiconnect2'
 ADDON_VERSION = _ADDON.getAddonInfo('version')
 ADDON_PATH = _ADDON.getAddonInfo('path')
 ADDON_FOLDER = xbmcvfs.translatePath('special://home')
@@ -173,7 +173,7 @@ PLEX_TYPE_GAME = 'game'
 # E.g. PMS answer when hitting the PMS endpoint /hubs/search
 PLEX_TYPE_TAG = 'tag'
 
-# PlexKodiConnect does not support all (content) types
+# plexkodiconnect2 does not support all (content) types
 # e.g. Plex Arcade games
 UNSUPPORTED_PLEX_TYPES = (PLEX_TYPE_GAME, )
 
@@ -272,10 +272,10 @@ ADDON_TYPE = {
     PLEX_TYPE_EPISODE: 'plugin.video.plexkodiconnect.tvshows',
     PLEX_TYPE_SEASON: 'plugin.video.plexkodiconnect.tvshows',
     PLEX_TYPE_SHOW: 'plugin.video.plexkodiconnect.tvshows',
-    PLEX_TYPE_SONG: 'plugin.video.plexkodiconnect',
-    PLEX_TYPE_ALBUM: 'plugin.video.plexkodiconnect',
-    PLEX_TYPE_ARTIST: 'plugin.video.plexkodiconnect',
-    PLEX_TYPE_PLAYLIST: 'plugin.video.plexkodiconnect'
+    PLEX_TYPE_SONG: 'plugin.video.plexkodiconnect2',
+    PLEX_TYPE_ALBUM: 'plugin.video.plexkodiconnect2',
+    PLEX_TYPE_ARTIST: 'plugin.video.plexkodiconnect2',
+    PLEX_TYPE_PLAYLIST: 'plugin.video.plexkodiconnect2'
 }
 
 ITEMTYPE_FROM_PLEXTYPE = {
