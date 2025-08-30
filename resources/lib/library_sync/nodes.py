@@ -5,7 +5,7 @@ from urllib.parse import urlencode
 import xml.etree.ElementTree as etree
 from .. import variables as v, utils
 
-ICON_PATH = 'special://home/addons/plugin.video.plexkodiconnect/icon.png'
+ICON_PATH = 'special://home/addons/plugin.video.plexkodiconnect2/icon.png'
 RECOMMENDED_SCORE_LOWER_BOUND = 7
 
 # Logic of the following nodes:
