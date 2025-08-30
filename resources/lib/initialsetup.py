@@ -720,6 +720,6 @@ class InitialSetup(object):
             LOG.info('User chose to go to the PKC settings - suspending PKC')
             app.APP.stop_pkc = True
             executebuiltin(
-                'Addon.OpenSettings(plugin.video.plexkodiconnect)')
+                'Addon.OpenSettings(plugin.video.plexkodiconnect2)')
             return
         utils.reboot_kodi()
