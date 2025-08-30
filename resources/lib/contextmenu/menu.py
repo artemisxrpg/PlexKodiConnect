@@ -111,7 +111,7 @@ class ContextMenu(object):
 
         elif selected == OPTIONS['Addon']:
             xbmc.executebuiltin(
-                'Addon.OpenSettings(plugin.video.plexkodiconnect)')
+                'Addon.OpenSettings(plugin.video.plexkodiconnect2)')
         elif selected == OPTIONS['Delete']:
             self._delete_item()
 
@@ -144,6 +144,6 @@ class ContextMenu(object):
         """
         Displays a list of elements for all the extras of the Plex element
         """
-        handle = ('plugin://plugin.video.plexkodiconnect?mode=extras&plex_id=%s'
+        handle = ('plugin://plugin.video.plexkodiconnect2?mode=extras&plex_id=%s'
                   % self.plex_id)
         xbmc.executebuiltin('ActivateWindow(videos,\"%s\",return)' % handle)
