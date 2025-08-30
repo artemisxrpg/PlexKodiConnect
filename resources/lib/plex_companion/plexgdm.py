@@ -78,7 +78,7 @@ class plexgdm(backgroundthread.KillableThread):
                                value='false')
             from xbmc import executebuiltin
             executebuiltin(
-                'Addon.OpenSettings(plugin.video.plexkodiconnect)')
+                'Addon.OpenSettings(plugin.video.plexkodiconnect2)')
 
     def register_as_client(self):
         '''
