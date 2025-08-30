@@ -244,7 +244,7 @@ def _generate_content(api):
         # Hack - Item is not synched to the Kodi database
         # We CANNOT use paths that show up in the Kodi paths table!
         url = url.replace('plugin.video.plexkodiconnect.tvshows',
-                          'plugin.video.plexkodiconnect')
+                          'plugin.video.plexkodiconnect2')
     item['file'] = url
     return item
 
